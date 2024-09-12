@@ -3,8 +3,6 @@ public class Ternaryoperator {
         int nilaiLulusMinium = 70;
         int nilaiMahasiswa = 70;
         String hasil = nilaiMahasiswa >= nilaiLulusMinium ? "lulus" : "Tidak lulus";
-        if (nilaiMahasiswa >= nilaiLulusMinimum)
-            hasil = "Lulus";
-        } else {
-        hasil = "Tidak Lulus";
+        System.out.println(hasil);
     }
+}
